@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabon Gida Salanta Vocational Centre (SSVC)</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-cream fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="Logo3.png.jpg" alt="SSVC Logo" width="50" height="50" class="me-2 rounded-circle">
+        <span class="fw-bold text-brown">Sabon Gida Salanta Vocational Centre</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Our Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Home Section ======= -->
+  <section id="home" class="home-section text-center d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold text-brown">Welcome to</h1>
+      <h2 class="fw-bold text-brown">Sabon Gida Salanta Vocational Centre (SSVC)</h2>
+      <p class="lead text-dark mt-3">Empowering individuals with skills for a better future.</p>
+    </div>
+  </section>
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-brown mb-4">About Us</h2>
+      <p class="text-center mx-auto" style="max-width: 800px;">
+        Sabon Gida Salanta Vocational Centre (SSVC) is dedicated to empowering youth and adults with vocational skills to achieve self-reliance and sustainable livelihoods.
+      </p>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h4 class="text-brown">Our Vision</h4>
+          <p>Write your vision statement here...</p>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-brown">Our Mission</h4>
+          <p>Write your mission statement here...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Courses Section ======= -->
+  <section id="courses" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-brown mb-4">Our Courses</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <h5 class="text-brown">Tailoring & Fashion Design</h5>
+              <p>Learn professional tailoring and design techniques.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <h5 class="text-brown">Carpentry & Woodwork</h5>
+              <p>Master the art of creating durable wooden structures.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <h5 class="text-brown">ICT & Computer Literacy</h5>
+              <p>Build your digital skills for the modern workplace.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Team Section ======= -->
+  <section id="team" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-brown mb-4">Our Team</h2>
+      <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="https://via.placeholder.com/200" class="rounded-circle mb-3" alt="Team Member">
+            <h5 class="text-brown">John Doe</h5>
+            <p>Director</p>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="https://via.placeholder.com/200" class="rounded-circle mb-3" alt="Team Member">
+            <h5 class="text-brown">Jane Smith</h5>
+            <p>Coordinator</p>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="https://via.placeholder.com/200" class="rounded-circle mb-3" alt="Team Member">
+            <h5 class="text-brown">Ali Musa</h5>
+            <p>Trainer</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Partners Section ======= -->
+  <section id="partners" class="py-5">
+    <div class="container text-center">
+      <h2 class="text-brown mb-4">Partners & Supporters</h2>
+      <p>We collaborate with local and international partners to support our mission.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <img src="https://via.placeholder.com/120x60" alt="Partner 1">
+        <img src="https://via.placeholder.com/120x60" alt="Partner 2">
+        <img src="https://via.placeholder.com/120x60" alt="Partner 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-brown mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-brown">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-brown">Address:</h5>
+          <p>Sabon Gida, Salanta Area, Kano State, Nigeria</p>
+          <h5 class="text-brown">Email:</h5>
+          <p>info@ssvc-nga.com</p>
+          <h5 class="text-brown">Phone:</h5>
+          <p>+234 800 000 0000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer class="text-center py-3 bg-brown text-white">
+    © 2025 Sabon Gida Salanta Vocational Centre (SSVC). All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
